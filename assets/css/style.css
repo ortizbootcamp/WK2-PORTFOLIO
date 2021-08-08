@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background-color: rgb(245, 234, 217);
+}
+
+#headerbg {
+    opacity:0.62;
+    width:100%;
+    height:auto;
+    position:absolute;
+    z-index: -1;
+}
+
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    overflow: hidden;
+    position: relative;
+}
+
+header h1 {
+    margin:25px;
+}
+
+nav ul {
+
+    display:inline-flex;
+    align-items: flex-end;
+    margin:5px;
+
+}
+
+#aboutme {
+    display:inline-flex;
+    margin:25px;
+}
+
+#aboutme img {
+    align-content:center;
+    margin:25px;
+}
+#aboutme p {
+    align-content: center;
+    margin:25px;
+}
+
+#examples {
+    display:inline-flex;
+    margin:25px;
+}
+
+#examples img {
+    width:250px;
+    height:250px;
+}
+
+.project {
+    display:inline-flex;
+    margin:25px;
+}
+
+#contact {
+    display:inline-flex;
+    margin:25px;
+}
+
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
